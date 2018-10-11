@@ -1,0 +1,83 @@
+* {
+  font-family: 'Raleway',sans-serif; }
+
+.mainPage__holder {
+  border: 2px solid #ccc;
+  display: flex;
+  margin-top: 15px; }
+.commentsPage {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 15px;
+  box-shadow: 3px 3px 6px 6px #ccc;
+  border-radius: 5px; }
+  .commentsPage__userLogo {
+    width: 50px;
+    height: 50px; }
+  .commentsPage__formDiv {
+    width: 50px;
+    height: 50px;
+    background: #ccc; }
+  .commentsPage__itemContent {
+    word-break: break-all;
+    width: 240px; }
+.itemsPage {
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  padding: 15px;
+  box-shadow: 3px 3px 6px 6px #ccc;
+  height: 60vh;
+  overflow: auto;
+  border-radius: 5px; }
+  .itemsPage__button {
+    background: #22cdc1;
+    border: #22cdc1;
+    color: #fff; }
+  .itemsPage__customItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.itemsPageForm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  padding-left: 0; }
+
+.itemsPageForm input {
+  border-radius: 2px;
+  padding: 5px 35px; }
+.ReactModalPortal > div {
+  opacity: 0; }
+
+.ReactModalPortal .ReactModal__Overlay {
+  transition: opacity 300ms ease-in-out; }
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  display: flex;
+  opacity: 1;
+  justify-content: center;
+  align-items: center; }
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0; }
+
+.my-class {
+  background: #272b3c;
+  color: white;
+  max-width: 30rem;
+  outline: none;
+  padding: 70px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  font-family: 'Raleway',sans-serif; }
+
+.modal__button {
+  background: #22cdc1;
+  text-transform: uppercase;
+  margin: 0 10px; }
